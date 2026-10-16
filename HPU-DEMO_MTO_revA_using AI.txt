@@ -1,0 +1,157 @@
+0. SUMMARY
+Item                                              Value                                                                 
+Project                                           HPU-DEMO rev A - Hydrogen purification unit (demo from supplied P&IDs)
+Total pipe length incl. allowances (m)            950.2                                                                 
+Fabrication WV: inch-dia (welds x NPS)            11228                                                                 
+Erection WV: inch-meter (NPS x m)                 10062                                                                 
+Total welds                                       1317                                                                  
+Largest sizes by inch-meter                       DN350 (4392 IM), DN400 (1883 IM), DN300 (1482 IM)                     
+Valves: automatic / control / PSV / manual        22 / 8 / 14 / 179                                                     
+Instruments (total / transmitters)                82 / 45                                                               
+IO incl. spare: AI / AO / DI / DO                 54 / 12 / 58 / 29                                                     
+Equipment items                                   15                                                                    
+Item status                                       ai 89, verified 16                                                    
+Lines with missing length / estimated by default  0 / 0                                                                 
+
+1. PIPING BY SIZE
+DN mm  NPS in  Length m  Elbows  Tees  Pipe butt welds  Valve/inst welds  Total welds  Inch-dia (ID) fabrication WV  Inch-meter (IM) erection WV
+25     1       0.0       0       0     0                254               254          254                           0                          
+40     1.5     28.2      4       1     5                0                 16           24                            42                         
+50     2       114.6     22      9     23               22                116          232                           229                        
+80     3       90.0      6       3     15               114               150          450                           270                        
+150    6       30.0      4       2     6                12                32           192                           180                        
+200    8       30.0      4       2     6                12                32           256                           240                        
+250    10      62.6      16      10    14               24                100          1000                          626                        
+300    12      123.5     20      16    25               34                147          1764                          1482                       
+350    14      313.7     54      27    60               40                289          4046                          4392                       
+400    16      117.7     24      15    23               8                 124          1984                          1883                       
+450    18      39.9      10      7     8                8                 57           1026                          718                        
+TOTAL          950.2     164     92    185              528               1317         11228                         10062                      
+
+2. VALVES
+Type                                       DN mm  NPS in  Qty
+Control valve FV                           350    14      1  
+Control valve FV                           450    18      1  
+Control valve LV                           50     2       3  
+Control valve PV                           300    12      1  
+Control valve TV                           150    6       1  
+Control valve TV                           200    8       1  
+Instrument root/manifold valve (computed)  25     1       58 
+Manual valve                               50     2       8  
+Manual valve                               150    6       5  
+Manual valve                               200    8       5  
+Manual valve                               250    10      6  
+Manual valve                               300    12      10 
+Manual valve                               350    14      12 
+Manual valve                               400    16      2  
+Manual valve                               450    18      3  
+On/off XV (pneumatic, SOV, 2 LS)           80     3       1  
+On/off XV (pneumatic, SOV, 2 LS)           250    10      6  
+On/off XV (pneumatic, SOV, 2 LS)           300    12      6  
+On/off XV (pneumatic, SOV, 2 LS)           350    14      7  
+On/off XV (pneumatic, SOV, 2 LS)           400    16      2  
+PSV block valve (computed)                 80     3       42 
+PSV relief valve (self-actuated)           80     3       14 
+Vent/drain valve (computed)                25     1       28 
+TOTAL ON/OFF AUTOMATIC                                    22 
+TOTAL CONTROL VALVES                                      8  
+TOTAL PSV                                                 14 
+TOTAL MANUAL (incl. computed)                             179
+
+3. INSTRUMENTS
+Type   Qty
+AT     2  
+FT     3  
+LG     3  
+LT     3  
+PDT    6  
+PG     19 
+PT     9  
+TG     15 
+TT     22 
+TOTAL  82 
+
+4. IO COUNT
+Source                                          AI  AO  DI  DO  Total
+Transmitters/analyzers                          45  0   0   0   45   
+On/off XV: SOV + open/close LS                  0   0   44  22  66   
+Control valves: positioner                      0   8   0   0   8    
+Electric heaters: SCR, contactor, status, trip  0   2   4   2   8    
+TOTAL                                           45  10  48  24  127  
+Spare 20%                                       9   2   10  5   26   
+TOTAL WITH SPARE                                54  12  58  29  153  
+
+5. EQUIPMENT
+Tag     Description                       Qty  Type    X / Y m    
+C-101A  Adsorber                          1            3.6 / 23.5 
+C-101B  Adsorber                          1            7.9 / 23.5 
+C-101C  Adsorber                          1            12.6 / 23.5
+E-101   Feed Gas Heat Exchanger           1            14.1 / 4.7 
+E-102   Feed Gas Cooler                   1            10.6 / 4.7 
+E-103   Feed Gas Electric Heater          1    heater  7.6 / 5.0  
+E-104   Recycle Hydrogen Electric Heater  1    heater  26.4 / 23.9
+E-105   Recycle Hydrogen Cooler           1            28.1 / 20.6
+F-101A  Filter                            1    filter  27.7 / 5.7 
+F-101B  Filter                            1    filter  27.7 / 2.2 
+R-101   Deoxygenation Vessel              1            3.6 / 2.5  
+SKID    Valve skid 14.6 x 5.9 m           1    skid    8.4 / 17.7 
+V-101   Feed Gas Separator                1            18.2 / 2.5 
+V-102   Recycle Hydrogen Separator        1            18.2 / 7.3 
+V-103   Feed KO drum                      1            27.9 / 15.5
+
+6. LINE LIST
+Line no.              DN mm  NPS in  From > To      Qty  Length m  Inch-meter (IM)  Elbows  Tees  Length basis 
+150-CWR-11211-2A1     150    6       BL > E-102     1    15.0      90               2       1     fixed/assumed
+150-CWS-11211-2A1     150    6       BL > E-102     1    15.0      90               2       1     fixed/assumed
+200-CWR-11381-2A1     200    8       BL > E-105     1    15.0      120              2       1     fixed/assumed
+200-CWS-11381-2A1     200    8       BL > E-105     1    15.0      120              2       1     fixed/assumed
+250-FLG-11206-2A2     250    10      V-103 > BL     1    30.0      300              2       0     fixed/assumed
+250-P-11302-5A2-HC    250    10      SKID > SKID    1    14.6      146              2       4     fixed/assumed
+250-P-11304a-5A2-HC   250    10      SKID > SKID    3    9.0       90               6       3     fixed/assumed
+250-P-11308a-5A2-PP   250    10      SKID > SKID    3    9.0       90               6       3     fixed/assumed
+300-P-11309-5A2-H     300    12      SKID > SKID    1    14.6      175              2       4     fixed/assumed
+300-P-11310-5A2-H     300    12      SKID > SKID    1    14.6      175              2       4     fixed/assumed
+300-P-11312a-5A2-PP   300    12      SKID > SKID    3    9.0       108              6       3     fixed/assumed
+300-P-11320-5A2-H     300    12      SKID > E-104   1    32.6      392              4       2     plot plan    
+300-P-11321-5A2-H     300    12      E-104 > SKID   1    32.6      392              4       2     plot plan    
+300-P-11331-5A2       300    12      F-101B > BL    1    20.0      240              2       1     fixed/assumed
+350-P-11201-5A2       350    14      BL > V-103     1    25.0      350              2       1     fixed/assumed
+350-P-11202-5A2       350    14      V-103 > E-101  1    33.1      463              4       2     plot plan    
+350-P-11209-5A2       350    14      E-102 > V-101  1    16.7      234              4       2     plot plan    
+350-P-11210-5A2       350    14      V-101 > BL     1    20.0      280              2       1     fixed/assumed
+350-P-11211-5A2       350    14      V-101 > SKID   1    33.5      468              4       2     plot plan    
+350-P-11301-5A2-HC    350    14      SKID > SKID    1    6.0       84               2       2     fixed/assumed
+350-P-11303a-5A2-HC   350    14      SKID > SKID    3    9.0       126              6       3     fixed/assumed
+350-P-11305a-5A2-PP   350    14      SKID > C-101A  1    17.6      246              4       1     plot plan    
+350-P-11313-5A2-PP    350    14      SKID > SKID    1    14.6      204              2       4     fixed/assumed
+350-P-11314-5A2-HC    350    14      E-105 > V-102  1    31.6      443              4       2     plot plan    
+350-P-11315-5A2-HC    350    14      V-102 > SKID   1    28.2      395              4       2     plot plan    
+350-P-11316a-5A2-PP   350    14      SKID > C-101A  1    17.6      246              4       1     plot plan    
+350-P-11316b-5A2-PP   350    14      SKID > C-101B  1    12.9      180              4       1     plot plan    
+350-P-11316c-5A2-PP   350    14      SKID > C-101C  1    17.0      238              4       1     plot plan    
+350-P-11322-5A2-PP    350    14      SKID > E-105   1    31.0      434              4       2     plot plan    
+40-FLG-11314-5A2-HC   40     1.5     V-102 > SKID   1    28.2      42               4       1     plot plan    
+400-P-11201-5A2-PP    400    16      E-101 > E-103  1    13.5      217              4       2     plot plan    
+400-P-11203-5A2-PP    400    16      E-103 > R-101  1    13.2      211              4       2     plot plan    
+400-P-11204-5A2-PP    400    16      R-101 > R-101  1    6.0       96               2       1     fixed/assumed
+400-P-11305b-5A2-PP   400    16      SKID > C-101B  1    12.9      206              4       1     plot plan    
+400-P-11305c-5A2-PP   400    16      SKID > C-101C  1    17.0      272              4       1     plot plan    
+400-P-11307-5A2       400    16      SKID > SKID    1    14.6      234              2       5     fixed/assumed
+400-P-11330-5A2       400    16      SKID > F-101A  1    40.5      648              4       3     plot plan    
+450-P-11206-5A2-PP    450    18      R-101 > E-101  1    20.0      360              4       2     plot plan    
+450-P-11217-5A2-PP    450    18      E-101 > E-102  1    9.9       178              4       3     plot plan    
+450-P-11218-5A2-PP    450    18      E-101 > E-101  1    10.0      180              2       2     fixed/assumed
+50-DD-11201-5A2       50     2       BL > BL        3    36.0      72               6       3     fixed/assumed
+50-FLG-11301a-5A2-PP  50     2       C-101B > SKID  3    38.6      77               12      3     plot plan    
+50-NHP-11301-5A1      50     2       BL > SKID      1    20.0      40               2       2     fixed/assumed
+50-NLP-11202-2A1      50     2       BL > R-101     1    20.0      40               2       1     fixed/assumed
+80-FLG-11202-2A2      80     3       R-101 > BL     1    30.0      90               2       0     fixed/assumed
+80-FLG-11204-2A2      80     3       V-101 > BL     1    30.0      90               2       0     fixed/assumed
+80-FLG-11303-2A2      80     3       SKID > BL      1    30.0      90               2       3     fixed/assumed
+
+7. BASIS AND NOTES
+Note                                                                                                                                                                             
+Route length = Manhattan distance between equipment centres x 1.1 + 6 m vertical allowance; lines with a fixed length use that length                                            
+Welds: butt weld per 6 m joint + 2 per elbow + 3 per tee + 2 per valve + 1 per instrument tap; inch-dia (fabrication WV) = welds x NPS; inch-meter (erection WV) = NPS x length m
+Lines with MISSING length: 0; lines using the default estimate: 0 (set coordinates, geometry calibration or fixed lengths to improve)                                            
+Items with status "ai" have not been verified by a user                                                                                                                          

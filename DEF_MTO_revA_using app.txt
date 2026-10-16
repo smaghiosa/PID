@@ -1,0 +1,162 @@
+0. SUMMARY
+Item                                              Value                                       
+Project                                           DEF rev A - HPS                             
+Total pipe length incl. allowances (m)            18.8                                        
+Fabrication WV: inch-dia (welds x NPS)            3403                                        
+Erection WV: inch-meter (NPS x m)                 231                                         
+Total welds                                       693                                         
+Largest sizes by inch-meter                       DN350 (173 IM), DN400 (22 IM), DN300 (10 IM)
+Valves: automatic / control / PSV / manual        21 / 7 / 16 / 120                           
+Instruments (total / transmitters)                60 / 26                                     
+IO incl. spare: AI / AO / DI / DO                 32 / 9 / 51 / 26                            
+Equipment items                                   16                                          
+Item status                                       ai 180                                      
+Lines with missing length / estimated by default  0 / 1                                       
+
+1. PIPING BY SIZE
+DN mm  NPS in  Length m  Elbows  Tees  Pipe butt welds  Valve/inst welds  Total welds  Inch-dia (ID) fabrication WV  Inch-meter (IM) erection WV
+0      0.0     0.0       0       0     0                56                56           0                             0                          
+20     0.75    0.2       4       0     2                0                 10           8                             0                          
+25     1       0.0       0       0     0                204               204          204                           0                          
+40     1.5     0.3       6       0     3                0                 15           22                            0                          
+50     2       0.8       16      0     8                0                 40           80                            2                          
+80     3       1.0       14      0     7                128               163          489                           3                          
+100    4       0.1       2       0     1                0                 5            20                            0                          
+150    6       0.3       6       0     3                0                 15           90                            2                          
+200    8       0.2       4       0     2                0                 10           80                            2                          
+250    10      0.8       10      0     5                0                 25           250                           8                          
+300    12      0.8       12      0     6                0                 30           360                           10                         
+350    14      12.3      30      0     15               0                 75           1050                          173                        
+400    16      1.4       12      0     6                0                 30           480                           22                         
+450    18      0.5       6       0     3                0                 15           270                           9                          
+TOTAL          18.8      122     0     61               388               693          3403                          231                        
+
+2. VALVES
+Type                                       DN mm  NPS in  Qty
+Control valve FV                           0      0.0     1  
+Control valve LV                           0      0.0     3  
+Control valve PV                           0      0.0     1  
+Control valve TV                           0      0.0     2  
+Instrument root/manifold valve (computed)  25     1       40 
+On/off XV (pneumatic, SOV, 2 LS)           0      0.0     21 
+PSV block valve (computed)                 80     3       48 
+PSV relief valve (self-actuated)           80     3       16 
+Vent/drain valve (computed)                25     1       32 
+TOTAL ON/OFF AUTOMATIC                                    21 
+TOTAL CONTROL VALVES                                      7  
+TOTAL PSV                                                 16 
+TOTAL MANUAL (incl. computed)                             120
+
+3. INSTRUMENTS
+Type   Qty
+AT     4  
+FIC    2  
+FT     2  
+LG     3  
+LT     1  
+PDT    2  
+PG     16 
+PIC    1  
+PT     8  
+TG     12 
+TT     9  
+TOTAL  60 
+
+4. IO COUNT
+Source                                          AI  AO  DI  DO  Total
+Transmitters/analyzers                          26  0   0   0   26   
+On/off XV: SOV + open/close LS                  0   0   42  21  63   
+Control valves: positioner                      0   7   0   0   7    
+Electric heaters: SCR, contactor, status, trip  0   0   0   0   0    
+TOTAL                                           26  7   42  21  96   
+Spare 20%                                       6   2   9   5   22   
+TOTAL WITH SPARE                                32  9   51  26  118  
+
+5. EQUIPMENT
+Tag         Description  Qty  Type  X / Y m
+C-101A                   1                 
+C-101A/B/C               1                 
+C-101B                   1                 
+C-101C                   1                 
+E-101                    1                 
+E-102                    1                 
+E-103                    1                 
+E-104                    1                 
+E-105                    1                 
+R-101                    1                 
+R-101A                   1                 
+R-101A/B                 1                 
+V-101                    1                 
+V-102                    1                 
+V-103                    1                 
+V-106A                   1                 
+
+6. LINE LIST
+Line no.              DN mm  NPS in  From > To  Qty  Length m  Inch-meter (IM)  Elbows  Tees  Length basis             
+100-FLG-11205-5A2     100    4        >         1    0.1       0                2       0     geometry (to scale)      
+150-CWR-11201-2A1     150    6        >         1    0.1       0                2       0     geometry (to scale)      
+150-CWS-11201-2A1     150    6        >         1    0.2       1                2       0     geometry (to scale)      
+150-FLG-11206-2A2     150    6        >         1    0.1       0                2       0     geometry (to scale)      
+20-FLG-11306-2A2      20     0.75     >         1    0.0       0                2       0     geometry (to scale)      
+20-P-11317-5A2        20     0.75     >         1    0.2       0                2       0     geometry (to scale)      
+200-CWS-11301-2A1     200    8        >         1    0.2       1                2       0     geometry (to scale)      
+200-FLG-11307-5A2     200    8        >         1    0.1       1                2       0     geometry (to scale)      
+250-P-11302-5A2-HC    250    10       >         1    0.1       1                2       0     geometry (to scale)      
+250-P-11304b-5A2-HC   250    10       >         1    0.1       2                2       0     geometry (to scale)      
+250-P-11304c-5A2-HC   250    10       >         1    0.2       2                2       0     geometry (to scale)      
+250-P-11308b-5A2-PP   250    10       >         1    0.1       2                2       0     geometry (to scale)      
+250-P-11308c-5A2-PP   250    10       >         1    0.2       2                2       0     geometry (to scale)      
+300-FLG-11308-2A2     300    12       >         1    0.3       4                2       0     geometry (to scale)      
+300-P-11309-5A2-H     300    12       >         1    0.1       2                2       0     geometry (to scale)      
+300-P-11310-5A2-F     300    12       >         1    0.0       0                2       0     geometry (to scale)      
+300-P-11310-5A2-PP    300    12       >         1    0.0       0                2       0     geometry (to scale)      
+300-P-11312b-5A2-PP   300    12       >         1    0.1       1                2       0     geometry (to scale)      
+300-P-11312c-5A2-PP   300    12       >         1    0.2       2                2       0     geometry (to scale)      
+350-P-11202-5A2       350    14       >         1    0.1       2                2       0     geometry (to scale)      
+350-P-11202-5A2-PP    350    14       >         1    0.1       2                2       0     geometry (to scale)      
+350-P-11209-5A2       350    14       >         1    0.3       4                2       0     geometry (to scale)      
+350-P-11210-5A2       350    14       >         1    0.1       2                2       0     geometry (to scale)      
+350-P-11211-5A2       350    14       >         1    0.1       2                2       0     geometry (to scale)      
+350-P-11303b-5A2-HC   350    14       >         1    0.2       3                2       0     geometry (to scale)      
+350-P-11303c-5A2-HC   350    14       >         1    0.1       2                2       0     geometry (to scale)      
+350-P-11306b-5A2      350    14       >         1    0.0       0                2       0     geometry (to scale)      
+350-P-11306b-5A2-PP   350    14       >         1    0.2       3                2       0     geometry (to scale)      
+350-P-11306c-5A2      350    14       >         1    0.1       2                2       0     geometry (to scale)      
+350-P-11306c-5A2-PP   350    14       >         1    10.0      140              4       0     ESTIMATE (default length)
+350-P-11313-5A2-PP    350    14       >         1    0.3       4                2       0     geometry (to scale)      
+350-P-11314-5A2-HC    350    14       >         1    0.4       5                2       0     geometry (to scale)      
+350-P-11315-5A2-HC    350    14       >         1    0.2       3                2       0     geometry (to scale)      
+40-FLG-11201-5A2-PP   40     1.5      >         1    0.2       0                2       0     geometry (to scale)      
+40-FLG-11202-5A2-PP   40     1.5      >         1    0.1       0                2       0     geometry (to scale)      
+40-FLG-11304-5A2-HC   40     1.5      >         1    0.0       0                2       0     geometry (to scale)      
+400-P-11201-5A2-PP    400    16       >         1    0.3       5                2       0     geometry (to scale)      
+400-P-11203-5A2-PP    400    16       >         1    0.3       4                2       0     geometry (to scale)      
+400-P-11204-5A2-PP    400    16       >         1    0.1       1                2       0     geometry (to scale)      
+400-P-11305b-5A2-PP   400    16       >         1    0.3       5                2       0     geometry (to scale)      
+400-P-11305c-5A2-PP   400    16       >         1    0.1       2                2       0     geometry (to scale)      
+400-P-11307-5A2       400    16       >         1    0.3       5                2       0     geometry (to scale)      
+450-P-11205-5A2-PP    450    18       >         1    0.2       4                2       0     geometry (to scale)      
+450-P-11207-5A2-PP    450    18       >         1    0.2       3                2       0     geometry (to scale)      
+450-P-11208-5A2-PP    450    18       >         1    0.1       2                2       0     geometry (to scale)      
+50-CWS-11302-2A1-HWT  50     2        >         1    0.1       0                2       0     geometry (to scale)      
+50-D-11201-5A2        50     2        >         1    0.1       0                2       0     geometry (to scale)      
+50-D-11301-5A2        50     2        >         1    0.0       0                2       0     geometry (to scale)      
+50-FLG-11203-5A2      50     2        >         1    0.1       0                2       0     geometry (to scale)      
+50-FLG-11301b-5A2-PP  50     2        >         1    0.2       0                2       0     geometry (to scale)      
+50-FLG-11301d-5A2-PP  50     2        >         1    0.2       0                2       0     geometry (to scale)      
+50-NLP-11201-2A1      50     2        >         1    0.0       0                2       0     geometry (to scale)      
+50-NMP-11301-5A1      50     2        >         1    0.1       0                2       0     geometry (to scale)      
+80-CWS-11202-2A2-HWT  80     3        >         1    0.0       0                2       0     geometry (to scale)      
+80-FLG-11202-2A2      80     3        >         1    0.1       0                2       0     geometry (to scale)      
+80-FLG-11204-2A2      80     3        >         1    0.1       0                2       0     geometry (to scale)      
+80-FLG-11302b-2A2     80     3        >         1    0.5       2                2       0     geometry (to scale)      
+80-FLG-11302c-2A2     80     3        >         1    0.1       0                2       0     geometry (to scale)      
+80-FLG-11303-2A2      80     3        >         1    0.0       0                2       0     geometry (to scale)      
+80-FLG-11305-2A2      80     3        >         1    0.2       1                2       0     geometry (to scale)      
+
+7. BASIS AND NOTES
+Note                                                                                                                                                                             
+Route length = Manhattan distance between equipment centres x 1.1 + 6 m vertical allowance; lines with a fixed length use that length                                            
+Welds: butt weld per 6 m joint + 2 per elbow + 3 per tee + 2 per valve + 1 per instrument tap; inch-dia (fabrication WV) = welds x NPS; inch-meter (erection WV) = NPS x length m
+Lines with MISSING length: 0; lines using the default estimate: 1 (set coordinates, geometry calibration or fixed lengths to improve)                                            
+Items with status "ai" have not been verified by a user                                                                                                                          
